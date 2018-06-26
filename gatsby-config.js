@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Manifesto for Agile Design and Development',
   },
+  pathPrefix: `/`,
   plugins: [
     'gatsby-plugin-react-helmet',
        `gatsby-plugin-sass`,

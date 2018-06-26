@@ -25,7 +25,7 @@ class PostLink extends Component {
 
         this.setState({
           isToggleOn: true,
-          copyState:{border:"1px solid red"},
+          copyState:{border:"0px solid red"},
           activeClass:"on"
         })
 
