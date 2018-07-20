@@ -2,6 +2,7 @@ import React from 'react'
 import PostLink from "../components/post-link";
 
 import Intro from "../components/intro";
+
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
@@ -9,7 +10,6 @@ const IndexPage = ({
 }) => {
 
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.title) // You can filter your posts based on some criteria
     .map(edge => <PostLink color={edge.node.frontmatter.color} key={edge.node.id} post={edge.node} />);
 
   return <div>
@@ -32,10 +32,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path
-            title
             color
           }
-
           html
         }
       }

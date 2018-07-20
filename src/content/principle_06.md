@@ -1,11 +1,12 @@
 ---
 path: "/blog/my-first-post"
 date: "2017-11-07"
-title: "My second blog postZ"
 color: "#B6C649"
 ---
 <div class="number">6</div>
-There are many efficient and effective methods of  			
-conveying information to and within a team.
+<span class="copy-old">The most</span>
+<span class="copy-new">There are many</span> efficient and effective method<span class="copy-new">s</span> of  			
+conveying information to and within a <span class="copy-old">development </span><span class="copy-new">team.</span>
+<span class="copy-new">
 Written summary and synthesis are vital to project 			
-progress over time.
+progress over time.</span>

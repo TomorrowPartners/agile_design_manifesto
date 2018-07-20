@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
 import './main.scss';
 
 import Header from '../components/header'

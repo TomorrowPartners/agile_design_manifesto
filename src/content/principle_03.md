@@ -5,6 +5,13 @@ title: "My second blog postZ"
 color: "#FC7753"
 ---
 <div class="number">3</div>
-We continually refine and show our work. We do this 			
-frequently, from a few weeks to a few months, with a 			
-preference for the shorter timescale.
+<span class="copy-old">Deliver working software </span>
+<span class="copy-new">We continually refine and show our work. We do this</span> 			
+frequently, from a
+<span class="copy-old">couple of</span>
+<span class="copy-new">few</span>
+weeks to a
+<span class="copy-old">couple of</span>
+<span class="copy-new">few</span>
+months, with a 			
+preference <span class="copy-old">to </span><span class="copy-new">for</span> the shorter timescale.

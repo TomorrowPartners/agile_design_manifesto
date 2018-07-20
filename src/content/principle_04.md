@@ -5,6 +5,9 @@ title: "My second blog postZ"
 color: "#61CEC9"
 ---
 <div class="number">4</div>
-Everyone on a team—product managers, designers, 			
-developers, subject matter experts—must work 			
+<span class="copy-old">Business people and </span>
+<span class="copy-new">
+Everyone on a team—product managers, designers,</span> 			
+developers,
+<span class="copy-new">subject matter experts—</span>must work 			
 together daily throughout the project.
