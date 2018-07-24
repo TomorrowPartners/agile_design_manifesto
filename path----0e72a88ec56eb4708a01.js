@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{133:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Manifesto for Agile Design and Development"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{105:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Manifesto for Agile Design and Development"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----0e72a88ec56eb4708a01.js.map
