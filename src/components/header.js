@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import {css} from 'glamor';
-
+import logo from '../imgs/logo_tomorrow.svg';
 
 
 let page_title = css(
@@ -26,12 +26,12 @@ let page_title = css(
   {
     '@media(max-width: 768px)':
     {
-      'font-size': '3rem',
+
     }
   },
 {
     '@media(max-width: 576px)': {
-      'font-size': '3rem',
+      'font-size': '4rem',
       'margin':'2rem 0 2rem 0'
     }
   }
@@ -39,9 +39,16 @@ let page_title = css(
 
 )
 const Header = ({ siteTitle }) => (
+
+
 <div className="container-fluid">
   <div className="row">
-  <div className="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+    <div className="col-12 col-sm-10 offset-sm-1 col-lg-9 offset-lg-1 col-xl-7">
+        <img  className="logo" src={logo} />
+        </div>
+  </div>
+  <div className="row">
+  <div className="col-11 col-sm-10 offset-sm-1 col-lg-9 offset-lg-1 col-xl-7 offset-xl-2">
 
     <div className="page-title">
         <h1 {...page_title}>

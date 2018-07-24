@@ -1,6 +1,5 @@
 import React from 'react'
-import PostLink from "../components/post-link";
-
+import Principle from "../components/principle";
 import Intro from "../components/intro";
 
 const IndexPage = ({
@@ -10,7 +9,7 @@ const IndexPage = ({
 }) => {
 
   const Posts = edges
-    .map(edge => <PostLink color={edge.node.frontmatter.color} key={edge.node.id} post={edge.node} />);
+    .map((edge, index) => <Principle color={edge.node.frontmatter.color} key={edge.node.id} edge={edge} index={index+1} post={edge.node} />);
 
   return <div>
     <Intro/>
@@ -30,8 +29,6 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            path
             color
           }
           html

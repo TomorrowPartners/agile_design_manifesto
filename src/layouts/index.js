@@ -12,7 +12,7 @@ import Header from '../components/header'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      title={""}
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -21,7 +21,7 @@ const Layout = ({ children, data }) => (
 
 
 
-  <Header siteTitle={data.site.siteMetadata.title} />
+  <Header siteTitle={""} />
 
        {children()}
 

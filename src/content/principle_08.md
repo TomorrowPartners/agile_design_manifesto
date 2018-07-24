@@ -1,9 +1,6 @@
 ---
-path: "/blog/my-first-post"
-date: "2017-11-07"
 color: "#61CEC9"
 ---
-<div class="number">8</div>
 <span class="copy-old">
 Working software
 </span>

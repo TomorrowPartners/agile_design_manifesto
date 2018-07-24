@@ -1,10 +1,8 @@
 ---
-path: "/blog/my-first-post"
-date: "2017-11-07"
 color: "#6B9ADB"
 ---
 
-<div class="number">1</div>
+
 <span class="copy-unchanged">Our highest priority is to</span>
 <span class="copy-old">satisfy the customer through early and continuous delivery</span>
 <span class="copy-new">meet needs</span>
