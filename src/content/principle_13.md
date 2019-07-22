@@ -1,4 +1,4 @@
 ---
 color: "#6B9ADB"
 ---
-At regular intervals, the team reflects on how to 			become more effective, then tunes and adjusts its 			behavior accordingly.
+<span class="copy-new">At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</span>

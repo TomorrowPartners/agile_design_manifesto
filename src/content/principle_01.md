@@ -1,8 +1,6 @@
 ---
 color: "#6B9ADB"
 ---
-
-
 <span class="copy-unchanged">Our highest priority is to</span>
 <span class="copy-old">satisfy the customer through early and continuous delivery</span>
 <span class="copy-new">meet needs</span>

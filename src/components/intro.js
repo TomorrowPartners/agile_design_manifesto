@@ -17,20 +17,7 @@ const Intro = () => (
 laser-focused on product vision and user needs.
 </p>
 
-<p>
-We are uncovering better ways of creating human-centered
-products and services by doing it and helping others do it.
-Through this work we have come to value:
-</p>
 
-<p>
-Individuals and interactions over processes and tools
-Building the right product over building the product right
-Delivering iterations over comprehensive pre-planning
-Customer collaboration over contract negotiation
-Discovering customer needs over pre-determining a solution
-Responding to change over following a plan
-</p>
   </div>
   </div>
   </div>
