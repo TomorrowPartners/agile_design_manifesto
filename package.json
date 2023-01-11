@@ -9,7 +9,7 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-source-filesystem": "^1.5.36",
-    "gatsby-transformer-remark": "^1.7.41",
+    "gatsby-transformer-remark": "^5.25.1",
     "glamor": "^2.20.40",
     "react-grid-system": "^4.1.2",
     "react-helmet": "^5.2.0"
